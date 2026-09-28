@@ -5,6 +5,7 @@ import { PaperProvider, MD3DarkTheme } from 'react-native-paper';
 import HomeScreen from './src/screens/HomeScreen';
 import HistoryScreen from './src/screens/HistoryScreen';
 import { colors } from './src/theme/colors';
+import StatsScreen from './src/screens/StatsScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -41,6 +42,7 @@ export default function App() {
         }}>
           <Stack.Screen name="Inicio" component={HomeScreen} />
           <Stack.Screen name="Historial" component={HistoryScreen} />
+          <Stack.Screen name="Estadísticas" component={StatsScreen} />
         </Stack.Navigator>
       </NavigationContainer>
     </PaperProvider>

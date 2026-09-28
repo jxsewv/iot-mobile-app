@@ -64,6 +64,9 @@ export default function HomeScreen({ navigation }) {
       <Button mode="outlined" style={styles.button} onPress={() => navigation.navigate('Historial')}>
         Ver historial
       </Button>
+      <Button mode="text" style={styles.button} onPress={() => navigation.navigate('Estadísticas')}>
+        Ver estadísticas
+      </Button>
     </ScrollView>
   );
 }
