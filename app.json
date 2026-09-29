@@ -11,6 +11,7 @@
       "icon": "./assets/expo.icon"
     },
     "android": {
+      "package": "com.jxc.tempapp",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -36,6 +37,11 @@
     "experiments": {
       "typedRoutes": false,
       "reactCompiler": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "88c0840f-1d8e-44c4-8210-500ef3114a38"
+      }
     }
   }
 }
