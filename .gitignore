@@ -43,4 +43,4 @@ example
 /android
 
 # Credenciales locales
-src/config.js
+#src/config.js
